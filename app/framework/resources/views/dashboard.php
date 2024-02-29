@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <?php $this->section('css'); ?>  <!-- Referência do CSS Global -->
     <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="/assets/css/global.css"> <!-- Referência do CSS Global -->
 </head>
 <body>
 <section class="container-dashboard">
