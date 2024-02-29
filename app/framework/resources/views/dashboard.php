@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
+    <link rel="stylesheet" href="/assets/css/global.css"> <!-- Referência do CSS Global -->
 </head>
 <body>
-    <h2>Dashboard</h2>
-   <div id="container">
-        <?php echo $this->load(); ?>
-   </div>
+<section class="container-dashboard">
+        <aside class="container-aside" id="container-aside">    
+            <?php require 'partials/sidebar.php'; ?>
+        </aside>
+
+        <section class="container-section-principal">
+            <i data-feather="menu" id="menuMobile"></i>
+            <article class="container-section-principal-header">
+                <?php require 'partials/header.php'; ?>
+            </article>
+
+            <main class="container-section-principal-content">
+                <?php echo $this->load(); ?>
+            </main>
+
+        </section>
+    </section>
 </body>
 </html>
