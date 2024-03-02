@@ -1,0 +1,1 @@
+[{"id":1,"firstName":"Marcio","lastName":"Jose","email":"marciojlbarros@gmail.com","password":"$2y$10$8bGiV0uwOrKN3emV\/iiXmegb3AY7DVVC8ina1zKR85jMmTX7fVJ12"},{"id":2,"firstName":"Edlania","lastName":"Lima","email":"edilania@gmail.com","password":"202cb962ac59075b964b07152d234b70"},{"id":3,"firstName":"Maria","lastName":"Fernanda","email":"fernanda@gmail.com","password":"123"}]
